@@ -40,7 +40,7 @@ private:
     size_t rotary_embedding_dim_;
     float layernorm_eps_;
 
-    static constexpr bool  neox_rotary_style_ = true;
+    static constexpr bool  neox_rotary_style_ = false;
     float       shared_contexts_ratio_;
 
     int    start_id_;
